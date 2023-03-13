@@ -11,6 +11,17 @@ Out of the box, the project assumes #2 (custom compiled).
 
 Download from release archive from https://github.com/pocketbase/pocketbase/releases/latest, unzip it and place the `pocketbase` binary in this folder.
 
+You won't get the output of custom endpoint (like /hello)
+
+Output:
+
+```
+Hello!
+Got the following data from the backend server
+
+{"code":404,"message":"Not Found.","data":{}}
+```
+
 ## custom build
 
 If you would like to extend PocketBase and use it as a framework then there is a `main.go` in this folder that you can customize and build using `go build` or do live development using `air`.

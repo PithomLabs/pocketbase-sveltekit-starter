@@ -22,6 +22,8 @@ Got the following data from the backend server
 {"code":404,"message":"Not Found.","data":{}}
 ```
 
+However, the other endpoints (/posts) works fine.
+
 ## custom build
 
 If you would like to extend PocketBase and use it as a framework then there is a `main.go` in this folder that you can customize and build using `go build` or do live development using `air`.
